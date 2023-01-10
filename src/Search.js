@@ -17,7 +17,7 @@ const Search = () => {
 				let holdInformation = [];
 				let hasFound = false;
 				for (let b = 0; b < information.length; b++) {
-					const { phoneAssignment, department, phoneNumber } =
+					const {id, phoneAssignment, department, phoneNumber, name } =
 						information[b];
 					if (
 						`${phoneAssignment}`
@@ -28,13 +28,17 @@ const Search = () => {
 							.includes(`${text}`.toLowerCase()) ||
 						`${phoneNumber}`
 							.toLowerCase()
+							.includes(`${text}`.toLowerCase()) ||
+						`${name}`
+							.toLowerCase()
 							.includes(`${text}`.toLowerCase())
 					) {
 						const info = {
-							id: information[b].id,
-							phoneAssignment: information[b].phoneAssignment,
-							department: information[b].department,
-							phoneNumber: information[b].phoneNumber,
+							id,
+							phoneAssignment,
+							department,
+							phoneNumber,
+							name,
 						};
 						holdInformation.push(info);
 						hasFound = true;
@@ -79,15 +83,17 @@ const Search = () => {
 								</caption>
 								<tr>
 									<th style={{ width: "50px" }}>#</th>
-									<th>Phone Assignment</th>
-									<th>Department</th>
-									<th style={{ width: "130px" }}>Local Phone No</th>
+									<th style={{ width: "150px" }}>Phone Assignment</th>
+									<th>Name</th>
+									<th style={{ width: "150px" }}>Department</th>
+									<th style={{ width: "100px" }}>Local Phone No</th>
 								</tr>
 								{information.map((info) => {
 									return (
 										<tr key={info.id}>
 											<td>{info.id}</td>
 											<td>{info.phoneAssignment}</td>
+											<td>{info.name}</td>
 											<td>{info.department}</td>
 											<td>{info.phoneNumber}</td>
 										</tr>
