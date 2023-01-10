@@ -154,7 +154,7 @@ class useData {
 					},
 					{
 						id: 20,
-						phoneAssignment: "SLAC Rice Sales - ",
+						phoneAssignment: "SLAC Rice Sales",
 						department: "SLAC Rice Sales",
 						name: "Tiffany Ngo (AVP)",
 						phoneNumber: "229",
@@ -162,8 +162,8 @@ class useData {
 					{
 						id: 21,
 						phoneAssignment: "SLAC Purchasing",
-						department: "SLAC Purchasing / Ma'am Tiff",
-						name: "Wilson / Arriane",
+						department: "SLAC Purchasing",
+						name: "Wilson / Arriane / Ma'am Tiff",
 						phoneNumber: "230",
 					},
 					{
@@ -177,7 +177,7 @@ class useData {
 					{
 						id: 23,
 						phoneAssignment: "SLAC Export",
-						department: "SLAC Export - Liza Guinto / Staff",
+						department: "SLAC Export",
 						name: "Liza Guinto / Staff",
 						phoneNumber: "232",
 					},
