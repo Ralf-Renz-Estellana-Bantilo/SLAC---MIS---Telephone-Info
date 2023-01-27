@@ -178,7 +178,7 @@ class useData {
 						id: 23,
 						phoneAssignment: "SLAC Export",
 						department: "SLAC Export",
-						name: "Liza Guinto / Staff",
+						name: "Liza Guinto / Jennifer",
 						phoneNumber: "232",
 					},
 				],
@@ -581,7 +581,7 @@ class useData {
 						id: 76,
 						phoneAssignment: "HR Training",
 						department: "HR",
-						name: "Marcus / Roger / Carol",
+						name: "Marcus / Roger / Carol / Japhet",
 						phoneNumber: "871",
 					},
 					{
