@@ -609,7 +609,7 @@ class useData {
 						id: 80,
 						phoneAssignment: "HR Galleon / SPRO / PSLI",
 						department: "HR",
-						name: "Mitch / Edz / Jessica / Kaye",
+						name: "Mitch / Idz / Jessica / Kaye",
 						phoneNumber: "875",
 					},
 				],
