@@ -581,7 +581,7 @@ class useData {
 						id: 76,
 						phoneAssignment: "HR Training",
 						department: "HR",
-						name: "Marcus / Roger / Carol / Japhet",
+						name: "Marcus / Roger / Carol / Japhet / JM",
 						phoneNumber: "871",
 					},
 					{
